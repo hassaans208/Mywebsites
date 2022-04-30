@@ -8,20 +8,17 @@ body {
 }
 
 .nav-container {
-    margin-top: -10px;
-    margin-left: -10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    width: 101.4%;
+    width: 100%;
     height: 50px;
     background-color: black ;
 }
 
 .fas {
     color: rgb(73, 237, 218);
-    margin-left: 50px;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 3px;
