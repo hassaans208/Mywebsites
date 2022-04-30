@@ -1,0 +1,31 @@
+.nav-container {
+    margin-top: -10px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 101.4%;
+    height: 50px;
+    background-color: black ;
+}
+
+.fas {
+    color: rgb(73, 237, 218);
+
+}
+
+.navopt {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+#a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 20px 0px 0px;
+    color: rgb(73, 237, 218);
+    text-transform: uppercase;
+
+}
