@@ -1,36 +1,4 @@
 body {
     margin: 0px;
-}
-.grid-cont {
-    display: grid;
-    grid-template-areas: "head head head head head"
-                         "nav main main main main"
-                         "nav section section section section"
-                         "foot foot foot foot foot";
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-}
-.grid-cont > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-                        
-}
-.grid-head {
-    grid-area: head;
-}
-.grid-nav {
-    grid-area: nav;
-}
-.grid-main {
-    grid-area: main;
-}
-
-.grid-sec {
-    grid-area: section;
-}
-.grid-foot {
-    grid-area: foot;
+    background-color: rgb(244, 244, 244);
 }
