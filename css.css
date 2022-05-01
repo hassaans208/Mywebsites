@@ -1,42 +1,36 @@
 body {
     margin: 0px;
-    color: gainsboro;
+}
+.grid-cont {
+    display: grid;
+    grid-template-areas: "head head head head head"
+                         "nav main main main main"
+                         "nav section section section section"
+                         "foot foot foot foot foot";
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-cont > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+                        
+}
+.grid-head {
+    grid-area: head;
+}
+.grid-nav {
+    grid-area: nav;
+}
+.grid-main {
+    grid-area: main;
 }
 
-.btn {
-    margin: 100px;
+.grid-sec {
+    grid-area: section;
 }
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    height: 50px;
-    background-color: black ;
-}
-
-.fas {
-    color: rgb(73, 237, 218);
-    text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 3px;
-
-}
-
-.navopt {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 50px;
-}
-
-#a {
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    list-style-type: none;
-    padding: 0px 20px 0px 0px;
-    color: rgb(73, 237, 218);
-    text-transform: uppercase;
-
+.grid-foot {
+    grid-area: foot;
 }
