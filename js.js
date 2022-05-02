@@ -1,0 +1,12 @@
+$(function(){
+    $("#hide").click(function(){
+        $(".top").hide();
+        $("#hide").hide();
+        $("#show").show();
+    });
+    $("#show").click(function(){
+        $(".top").show();
+        $("#show").hide();
+        $("#hide").show();
+    });
+});
